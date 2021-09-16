@@ -17,7 +17,7 @@ namespace Senai.Rental.WebApi.Repositories
         /// user id= sa; pwd= Chiba163 = Faz a autenticação com o SQL SERVER, passando Login e Senha.
         /// integrated security = Faz a autenticação com o usuario do sistema (Windows).
         /// </summary>
-        private string stringConexao = @"Data Source=DESKTOP-2J57S36\SQLEXPRESS; initial catalog=M_Rental; user id=sa; pwd=Chiba163";
+        private string stringConexao = "DATA SOURCE = DESKTOP-OAGJCNA\\SQLEXPRESS; initial catalog = T_Rental; user Id = SA; pwd = SENAI@132";
         public void AtualizarIdCorpo(VeiculoDomain veiculoAtualizado)
         {
             if (veiculoAtualizado.placaVeiculo != null)
